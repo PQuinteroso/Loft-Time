@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loft Time</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5c9dbbd785.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-box">
+        <header>
+            <div class="header-left">
+                <a href="index.html"><img src="img/Logo 2.png" alt="Logo" class="logo"></a>
+                <!--<h1>Loft Time</h1>-->
+            </div>
+            <div class="header-right">
+                <!--Español-->
+                <div class="nav nav-es" id="s-n-1">
+                    <a href="index.html"><h3 class="selected">Inicio</h3></a>
+                    <a href="nosotros.html"><h3>Nosotros</h3></a>
+                    <a href="productos.html"><h3>Productos</h3></a>
+                </div>
+                
+                <!--Inglés-->
+                <div class="nav nav-en hidden" id="e-n-1">
+                    <a href="index.html"><h3 class="selected">Home</h3></a>
+                    <a href="nosotros.html"><h3>Us</h3></a>
+                    <a href="productos.html"><h3>Products</h3></a>
+                </div>
+                
+                <!--Switch-->
+                <div class="switch">
+                    <img src="img/flags/espana.png" alt="españa" class="flag">
+                    <div class="switch-button">
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label" class="switch-button__label"></label>
+                    </div>
+                    <img src="img/flags/reino-unido.png" alt="reino-unido" class="flag">
+                </div>
+
+                <!--Checkbox Responsive-->
+
+                <div class="checkbox-responsive">
+                    <input type="checkbox" id="checkbox-responsive" class="checkbox-responsive__checkbox hidden">
+                    <label for="checkbox-responsive" class="checkbox-responsive__label">
+                        <img src="img/menu.png" alt="menu"  class="menu-icon" id="menu-icon">
+                        <img src="img/cross.png" alt="x"  class="cross-icon hidden" id="cross-icon">
+                    </label>
+                </div>
+                
+
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="slogan">
+            <div class="slogan-text">
+                <span class="slogan-text-1"><h1>Loft Time</h1></span>
+                <hr>
+                <h2>Aprovecha cada rincón, Loft Time lo hace mejor.</h2>
+            </div>
+        </div>
+        <div class="main2-box">
+            <div class="main2">
+                <h2 id="s-1">¿Cuál es nuestro servicio?</h2><h2 id="e-1" class="hidden">What is our service?</h2>
+                <div class="main2-body">
+                    <p id="s-2">En nuestra empresa, nos especializamos en la remodelación y expansión de casinos escolares mediante la construcción de segundos pisos. Nuestro objetivo es optimizar el espacio disponible, creando ambientes más amplios y cómodos para que tanto estudiantes como profesores disfruten de un entorno agradable y funcional durante la hora del almuerzo. Con nuestras soluciones, no solo mejoramos la capacidad y distribución del área, sino que también brindamos una experiencia más placentera y eficiente para todos los usuarios. </p>
+                    <p id="e-2" class="hidden">At our company, we specialize in the remodeling and expansion of school casinos by building second floors. Our goal is to optimize the available space, creating larger and more comfortable environments so that both students and teachers can enjoy a pleasant and functional environment during lunch time. With our solutions, we not only improve the capacity and distribution of the area, but also provide a more pleasant and efficient experience for all users.</p>
+                    <img src="img/Loft.jpg" alt="Loft-img" width="350px">
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer-box">
+        <footer>
+            <h3 id="s-f-1">Contáctanos</h3><h3 class="hidden" id="e-f-1">Contact us</h3>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2228137788147!2d-70.60789902345618!3d-33.41743489582357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf69d2f3760b%3A0xce12d94795ccc9ed!2sGran%20Torre%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1727394234257!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2228137788147!2d-70.60789902345618!3d-33.41743489582357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf69d2f3760b%3A0xce12d94795ccc9ed!2sGran%20Torre%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1727394234257!5m2!1ses-419!2scl" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer-redes">
+                <ul>
+                    <li><a href="https://x.com" target="_blank"><img width="30px" src="img/redes/x.png" alt="twitter-icon"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img width="30px" src="img/redes/instagram.png" alt="instagram-icon"></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><img width="30px" src="img/redes/linkedin.png" alt="linkedin-icon"></a></li>
+                </ul>
+            </div>
+            <div class="footer-gmail"><p><span class="centering"><i class="fa-regular fa-envelope"></i></span> loft.time24@gmail.com</p></div>
+            <div class="footer-phone"><p><span class="centering"><i class="fa-solid fa-phone"></i></span> +56 213456789</p></div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

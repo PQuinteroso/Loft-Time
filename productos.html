@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loft Time</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5c9dbbd785.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header-box">
+        <header>
+            <div class="header-left">
+                <a href="index.html"><img src="img/Logo 2.png" alt="Logo" class="logo"></a>
+                <!--<h1>Loft Time</h1>-->
+            </div>
+            <div class="header-right">
+                <!--Español-->
+                <div class="nav nav-es" id="s-n-1">
+                    <a href="index.html">
+                        <h3>Inicio</h3>
+                    </a>
+                    <a href="nosotros.html">
+                        <h3>Nosotros</h3>
+                    </a>
+                    <a href="productos.html">
+                        <h3 class="selected">Productos</h3>
+                    </a>
+                </div>
+
+                <div class="nav nav-en hidden" id="e-n-1">
+                    <a href="index.html">
+                        <h3>Home</h3>
+                    </a>
+                    <a href="nosotros.html">
+                        <h3>Us</h3>
+                    </a>
+                    <a href="productos.html">
+                        <h3 class="selected">Products</h3>
+                    </a>
+                </div>
+
+
+                <div class="switch">
+                    <img src="img/flags/espana.png" alt="españa" class="flag">
+                    <div class="switch-button">
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label" class="switch-button__label"></label>
+                    </div>
+                    <img src="img/flags/reino-unido.png" alt="reino-unido" class="flag">
+                </div>
+
+                
+                <!--Checkbox Responsive-->
+
+                <div class="checkbox-responsive">
+                    <input type="checkbox" id="checkbox-responsive" class="checkbox-responsive__checkbox hidden">
+                    <label for="checkbox-responsive" class="checkbox-responsive__label">
+                        <img src="img/menu.png" alt="menu"  class="menu-icon" id="menu-icon">
+                        <img src="img/cross.png" alt="x"  class="cross-icon hidden" id="cross-icon">
+                    </label>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="producto-box">
+            <div class="producto">
+                <div class="producto-title">
+                    <h2 id="3s-p-1">Producto:</h2>
+                    <h2 id="3e-p-1" class="hidden">Product:</h2>
+                </div>
+                <div class="producto-text">
+                    <p id="3s-p-2">Lofts de alta calidad, diseñados para optimizar cada metro cuadrado disponible, brindando soluciones eficientes que ayudan a mejorar la organización y funcionalidad de tus espacios. Con materiales de primera y un diseño pensado para aprovechar al máximo el espacio, cada loft es una inversión en confort, estilo y practicidad.</p>
+                    <p id="3e-p-2" class="hidden">High-quality lofts, designed to optimize every available square meter, providing efficient solutions that help improve the organization and functionality of your spaces. With top-quality materials and a design designed to make the most of space, each loft is an investment in comfort, style and practicality.</p>
+                </div>
+
+                <div class="producto-images-box carrousel">
+                    <div class="producto-images-box2">
+                        <div class="producto-images">
+                            <img src="img/lofts/Loft 3.png" alt="Imagen 1" class="carrousel-img">
+                            <img src="img/lofts/Loft 2.png" alt="Imagen 2" class="carrousel-img">
+                            <img src="img/lofts/Loft 1.png" alt="Imagen 3" class="carrousel-img">
+                        </div>
+                    </div>
+                    
+
+                    <ul class="puntos">
+                        <li class="punto active"></li>
+                        <li class="punto"></li>
+                        <li class="punto"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="valores-box">
+            <div class="valores">
+                <h2 id="3s-v-1">Nuestros valores:</h2>
+                <h2 id="3e-v-1" class="hidden">Our values:</h2>
+                <div class="valores-text">
+                    <div class="valores-inner valores-es" id="3s-v-2">
+                        <ul>
+                            <li>
+                                <h3>Materiales</h3>
+                                <ul>
+                                    <li>Estructuras: $200.000</li>
+                                    <li>Acabados: $100.000</li>
+                                    <li>Mobiliario: $200.000</li>
+                                    <li>Iluminación: $50.000</li>
+                                    <br>
+                                    <li>Subtotal materiales: $550.000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Mano de Obra</h3>
+                                <ul>
+                                    <li>Carpinteros y constructores: $2.000.000</li>
+                                    <li>Electricistas: $500.000</li>
+                                    <li>Pintores: $500.000</li>
+                                    <br>
+                                    <li>Subtotal mano de obra: $3.000.000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Permisos y Licencias</h3>
+                                <ul>
+                                    <li>Trámites municipales: $300.000</li>
+                                    <li>Seguros: $200.000</li>
+                                    <br>
+                                    <li>Subtotal permisos: $500.000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Transporte</h3>
+                                <ul>
+                                    <li>Desplazamiento de materiales y trabajadores: $300.000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Imprevistos</h3>
+                                <ul>
+                                    <li>Fondo para gastos no planificados (10%): Aproximadamente $900.000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Ganancia</h3>
+                                <ul>
+                                    <li>Ganacia de la empresa: $1.500.000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>Total: $6.200.000 + $550.000 x Metro Cuadrado </h3>
+                    </div>
+                    <div id="3e-v-2" class="valores-inner valores-en hidden">
+                        <ul>
+                            <li>
+                                <h3>Materials</h3>
+                                <ul>
+                                    <li>Structures: $200,000</li>
+                                    <li>Finishes: $100,000</li>
+                                    <li>Furniture: $200,000</li>
+                                    <li>Illumination: $50,000</li>
+                                    <br>
+                                    <li>Materials subtotal: $550,000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Labor</h3>
+                                <ul>
+                                    <li>Carpenters and builders: $2,000,000</li>
+                                    <li>Electricians: $500,000</li>
+                                    <li>Painters: $500,000</li>
+                                    <br>
+                                    <li>Labor subtotal: $3,000,000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Permits and Licenses</h3>
+                                <ul>
+                                    <li>Municipal procedures: $300,000</li>
+                                    <li>Insurance: $200,000</li>
+                                    <br>
+                                    <li>Permits Subtotal: $500,000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Transport</h3>
+                                <ul>
+                                    <li>Movement of materials and workers: $300,000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Unforeseen</h3>
+                                <ul>
+                                    <li>Fund for unplanned expenses (10%): Approximately $900,000</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>Profit</h3>
+                                <ul>
+                                    <li>Company profit: $1,500,000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>Total: $6,200,000 + $550,000 x Square meter</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer-box">
+        <footer>
+            <h3 id="s-f-1">Contáctanos</h3>
+            <h3 class="hidden" id="e-f-1">Contact us</h3>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2228137788147!2d-70.60789902345618!3d-33.41743489582357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf69d2f3760b%3A0xce12d94795ccc9ed!2sGran%20Torre%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1727394234257!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2228137788147!2d-70.60789902345618!3d-33.41743489582357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf69d2f3760b%3A0xce12d94795ccc9ed!2sGran%20Torre%20Santiago%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1727394234257!5m2!1ses-419!2scl"
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer-redes">
+                <ul>
+                    <li><a href="https://x.com" target="_blank"><img width="30px" src="img/redes/x.png"
+                                alt="twitter-icon"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img width="30px"
+                                src="img/redes/instagram.png" alt="instagram-icon"></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><img width="30px" src="img/redes/linkedin.png"
+                                alt="linkedin-icon"></a></li>
+                </ul>
+            </div>
+            <div class="footer-gmail">
+                <p><span class="centering"><i class="fa-regular fa-envelope"></i></span> loft.time24@gmail.com</p>
+            </div>
+            <div class="footer-phone">
+                <p><span class="centering"><i class="fa-solid fa-phone"></i></span> +56 213456789</p>
+            </div>
+
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
