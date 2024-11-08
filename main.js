@@ -24,6 +24,9 @@ if (document.getElementById("s-1") != null) {
 const sf1 = document.getElementById("s-f-1");
 const ef1 = document.getElementById("e-f-1");
 
+const sf2 = document.getElementById("s-f-2");
+const ef2 = document.getElementById("e-f-2");
+
 //---Nosotros
 
 var s2m1 = document.getElementById("2s-m-1");
@@ -73,11 +76,17 @@ switchButton.addEventListener("click", function () {
 
         sf1.classList.add("hidden");
         ef1.classList.remove("hidden");
+
+        sf2.classList.add("hidden");
+        ef2.classList.remove("hidden");
     } else {
         sn1.classList.remove("hidden");
         en1.classList.add("hidden");
         sf1.classList.remove("hidden");
         ef1.classList.add("hidden");
+
+        sf2.classList.remove("hidden");
+        ef2.classList.add("hidden");
     }
 });
 

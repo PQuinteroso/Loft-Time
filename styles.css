@@ -329,6 +329,81 @@ footer h3 {
     padding-bottom: 10px;
 }
 
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 900px;
+}
+
+.footer-left{
+    padding: 10px;
+    width: max-content;
+}
+
+.footer-right{
+    padding: 10px;
+    width: 55%;
+}
+
+.footer-right form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    
+    width: 100%;
+}
+
+.footer-right label{
+    padding: 10px 0 0 0;
+    font-family: "Fredoka", serif;
+}
+
+.footer-right input,
+.footer-right textarea{
+    padding: 15px;
+    background-color: var(--l-gray);
+    border-radius: 20px;
+    border: var(--l-cream1) 3px solid;
+    color: var(--l-white);
+    font-size: 0.9rem;
+    font-family: "Fredoka", serif;
+    outline: none;
+    margin: 5px 0;
+}
+
+.footer-right input::placeholder,
+.footer-right textarea::placeholder{
+    font-family: "Fredoka", serif;
+    color: var(--l-white);
+
+}
+
+.footer-right textarea{
+    min-width: 100%;
+    max-width: 100%;
+
+    min-height: 100px;
+    max-height: 100px;
+}
+
+input.submit-btn{
+    border: 0;
+    background-color: var(--l-green);
+    margin-top: 20px;
+    font-family: "Fredoka", serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+input.submit-btn:hover{
+    filter: brightness(1.1);
+}
+
 /*Nosotros*/
 
 .mision-box {
@@ -661,6 +736,14 @@ footer h3 {
 
     .producto-images-box{
         width: 90%;
+    }
+
+    .footer-inner{
+        flex-flow: column nowrap;
+    }
+
+    .footer-right{
+        width: 70%;
     }
 }
 
